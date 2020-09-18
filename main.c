@@ -14,7 +14,7 @@
 int sum_n(int n);
 
 int sum_n(int n){
-  if(n == 0)
+  if(n != 0)
     return n + sum_n(n-1);
   else
     return n;
